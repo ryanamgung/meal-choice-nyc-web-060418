@@ -7,3 +7,7 @@ describe '#meal_choice' do
     expect(meal_choice("vegan")).to eq("vegan")
   end
 end
+
+def meal_choice(meal_choice = "meat")
+  return meal_choice
+end
